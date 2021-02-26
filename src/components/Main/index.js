@@ -3,8 +3,6 @@ import Meme from "./Meme";
 
 const qc = new QueryClient();
 
-console.log(qc, QueryClientProvider);
-
 const Main = () => (
   <Main>
     <QueryClientProvider client={qc}>
