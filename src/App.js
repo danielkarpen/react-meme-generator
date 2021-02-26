@@ -1,9 +1,12 @@
+import { Main } from "./components";
+
 function App() {
   return (
-  <div>
-
-  </div>;
-  ):
+  <>
+    <Header />
+    <Main />
+  </>;
+  );
 }
 
 export default App;
